@@ -1,0 +1,31 @@
+package com.mycompany.fundamentos;
+
+public class AreaCircunferencia {
+
+    public static void main(String[] args) {
+        //Variaveis= int --> inteiro (2) / double --> decimal (2.1)
+        double raio = 3.4;
+        double pi = 3.14159;
+        
+        System.out.println(pi * raio * raio ); //imprima uma linha na saida do sistema//
+        
+                        // Resultado vai ser: 36.3167804
+                        
+        //Tambem podemos crirar uma outra variavel 
+        double area = pi * raio * raio;
+        System.out.println(area);
+      
+        //Para não mudar o valor, adc o " final " antes da variavel 
+        
+        //double raio = 3.4;
+        //final double pi + 3.24259;
+
+        //Para imprimir com texto
+        
+        raio = 10;
+        area = pi * raio * raio;
+        System.out.println("Area = " + area + "m2.");
+        
+                        //Reasultado: Area = 314.159m2
+    }
+}
