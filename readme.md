@@ -1,2 +1,2 @@
-# Anota-es-Java
+# Anotações-em-Java
 Este repositório foi criado para armazenar códigos e anotações do curso de Java que estou acompanhando
