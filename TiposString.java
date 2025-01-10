@@ -22,6 +22,37 @@ public class TiposString {
     System.out.println(s.equals("boa tarde"));// Compara as duas stringss. Resultado: False, pois a 'string s' começa com B maiusculo, aqui começa com o b minusculo
     System.out.println(s.toLowerCase().equals("boa tarde"));// Compara duas strings, considerando maiusculas e minusculas. Ou toda palavra tem que ser em maiuscula ou em minuscula pro redultado ser 'true'
     System.out.println(s.equalsIgnoreCase("boa tarde"));// Ignora se é maiscula ou minuscula 
+
+        //Treino
+    String g = "Guilherme de Carol";
+    
+    System.out.println (g.startsWith("Guilherme")); //true
+    System.out.println(g.startsWith("gusmão")); //False
+    System.out.println(g.startsWith("guilherme"));//False
+    System.out.println(g.toUpperCase().startsWith("guilherme"));//False
+    System.out.println(g.toUpperCase().startsWith("GUILHERME"));//true
+    
+    System.out.println(g.endsWith("Carol"));//True
+    System.out.println(g.endsWith("Nepomuceno"));//False
+    System.out.println(g.endsWith("carol"));//False
+    System.out.println(g.toLowerCase().endsWith("Carol"));//False
+    System.out.println(g.toLowerCase().endsWith("carol"));//True
+    
+    
+   
+
+  String a = "Ana Carolina";
+    System.out.println(a.length()); // 12
+    System.out.println(g.length()); // 18
+    
+ String ag = "Ana Gusmao";
+    System.out.println(ag.length());//10
+    
+String b = "Hart";
+     System.out.println(b.length());//4
+     
+  String f = "Famill";
+  System.out.println(f.length()); //6
     
     }
 }
