@@ -39,7 +39,57 @@ public class Console {
          System.out.println("Confirmando, a sua idade e:  " + idade);
          
           entrada.close();// Para fechar o Scanner
-    }
+
+
+ }
+
+                            //Problema
+      
+      //Scanner teclado = new Scanner(System.in);
+ 
+    //System.out.println("Qual a sua idade?");
+    //int idade = teclado.nextInt();
+      
+    //System.out.println("Qual o seu nome?");
+    //String nome = teclado.nextLine();
+      
+    //System.out.println("Qual o seu sobrenome?");
+    //String sobrenome = teclado.nextLine();
+ 
+    //teclado.close();
+
+    // A saida desse codigo vai ser: 
+   //-->   Qual a sua idade? 25
+   // -->  Qual o seu nome? Qual o seu sobrenome? Silva
+
+
+                     // Resoluçao do problema:
+
+   //Scanner teclado = new Scanner(System.in);
+        
+        //System.out.print("Qual a sua idade? ");
+        //int idade = teclado.nextInt();
+        //teclado.nextLine(); //limpar o buffer
+        //System.out.println("Sua idade e: " +idade);
+        
+        
+        //System.out.print("Qual e o seu nome? ");
+        //String nome = teclado.nextLine();
+        //System.out.println("Seu nome e: " +nome);
+        
+        //System.out.print("Digite seu sobrenome: ");
+        //String sobrenome = teclado.nextLine();
+        //System.out.println("Seu sobrenome e: "+sobrenome);
+   
+
+   // A saida desse codigo vai ser:
+   // -->  Qual a sua idade? 20
+  // --> Sua idade e: 20
+ // --> Qual e o seu nome? João
+// --> Seu nome e: João
+// --> Digite seu sobrenome: de Andrade
+// --> Seu sobrenome e: de Andrade
+    
 
    
 }    
