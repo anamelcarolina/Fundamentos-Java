@@ -81,6 +81,7 @@ public class Console {
         //String sobrenome = teclado.nextLine();
         //System.out.println("Seu sobrenome e: "+sobrenome);
    
+   //teclado.close();
 
    // A saida desse codigo vai ser:
    // -->  Qual a sua idade? 20
