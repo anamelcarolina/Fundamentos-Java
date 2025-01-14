@@ -18,17 +18,24 @@ public class ConversaoStringNumero {
         
     }
 
-/* public static void main(String [] args){
-    String valor3 = JOptionPane.showInputDialog("Digite um numero: ");
-    String valor4 = JOptionPane.showInputDialog("Digite outro numero: ");
+/* Fiz um exemplo com as minhas notas da faculdade
+
+public static void main(String [] args){
+    String valor1= JOptionPane.showInputDialog("Digite a primeira nota: "); //Digitei 4.43
+    String valor2= JOptionPane.showInputDialog("Digite a segunda nota: ");//Digitei 4.33
+    String valor3= JOptionPane.showInputDialog("Digite a  nota do PPD: ");//Digitei 1.00
+    String valor4= JOptionPane.showInputDialog("Digite a  nota do Educa: ");//Digitei 0.50
     
-    int numero1 = Integer.parseInt(valor3);
-    int numero2 = Integer.parseInt(valor4);
-    System.out.print("A soma e: ");
-    System.out.println(numero1 + numero2);
-    int media= numero1 + numero2;
-    System.out.print("A media e: "); //Saida 8
-    System.out.println(+media / 2); //Saida 9
+    double numero1= Double.parseDouble(valor1);
+    double numero2= Double.parseDouble(valor2);
+    double numero3= Double.parseDouble(valor3);
+    double numero4= Double.parseDouble(valor4);
+    double soma= numero1 + numero2 +numero3 +numero4;
+    System.out.print("A soma das quatro notas e: ");// Saida 10,26
+    System.out.println(+soma);
+    System.out.print("A media das quatro notas e: ");// Saida 5.13
+    System.out.println(+soma /2);
+    
         
     }
 */
