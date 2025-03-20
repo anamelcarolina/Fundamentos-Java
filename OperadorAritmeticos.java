@@ -43,6 +43,12 @@ public class OperadoresAritmeticos {
     */
     
     System.out.println(x + y - a * b);// Saida: 12.760000000000005
+
+        // Para fazer uma potencia (  2³ ) é usada uma funcionalidade Math.pow 
+    
+    int c = 3 * 4 - 10;
+    int d = (int) Math.pow(c, 3);
+    System.out.println(d);
     }
     
 }
